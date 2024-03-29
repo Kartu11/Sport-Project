@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h5 a{
+    text-decoration: none;
+    color: black;
+}
+h4 a{
+    text-decoration: none;
+    color: white;
+}
+h4 a:hover{
+    color: #A68F5B;
+}
+.read:hover{
+    color: #A68F5B;
+}
+.carousel-inner .img1{
+    background-image: url(../images/h2-rev-backgr-img-1.jpg);
+    height: 600px;
+    background-position: center;
+    background-size:cover ;
+    background-attachment: fixed;
+    position: relative;
+}
+.carousel-inner .img2{
+    background-image: url(../images/home-2-slide-2.jpg);
+    height: 600px;
+    background-position: center;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+.carousel-inner .img3{
+    background-image: url(../images/h2-rev-backgr-img-3.jpg);
+    height: 600px;
+    background-position: center;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+.book-btn{
+    background-color:#A68F5B;
+    color: white;
+}
+.book-btn:hover{
+    background-color: #caad64;
+}
+
+
+.carousel-caption{
+    margin: 0px 0px 100px 0px;
+}
+.instructor{
+    background-image: url(../images/h2-parallax-img1.jpg);
+    height: 600px;
+    background-position: center;
+}
+
+.dress{
+    background-color: #F5F0EE;
+}
+.navbar-nav li a{
+    color: white;
+}
+.images-1:hover{
+    content: url(../images/h2-client1-hover-img.png);
+}
+.images-2:hover{
+    content: url(../images/h2-client2-hover-img.png);
+}.images-3:hover{
+    content: url(../images/h2-client3-hover-img.png);
+}.images-4:hover{
+    content: url(../images/h2-client4-hover-img.png);
+}.images-5:hover{
+    content: url(../images/h2-client5-hover-img.png);
+}.images-6:hover{
+    content: url(../images/h2-client6-hover-img.png);
+}
+.fotter{
+    background-color: #474733;
+}
+
+@media only screen and (min-width:1024px){
+    .navbar{
+        background-color: #474733;
+    }
+}
